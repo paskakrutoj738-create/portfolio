@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Обеденный стол из массива дуба на металлических ножках в интерьере">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232a2d"/>
+      <stop offset=".55" stop-color="#151a1c"/>
+      <stop offset="1" stop-color="#0a0c0d"/>
+    </linearGradient>
+    <radialGradient id="warm" cx=".24" cy=".18" r=".9">
+      <stop offset="0" stop-color="#ecc886" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#dcae68" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#dcae68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd79a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffd79a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".45" r=".78">
+      <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".62"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bd8750"/>
+      <stop offset=".35" stop-color="#9a6638"/>
+      <stop offset=".72" stop-color="#7a4e2a"/>
+      <stop offset="1" stop-color="#5b381d"/>
+    </linearGradient>
+    <linearGradient id="woodEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e3b20"/>
+      <stop offset=".5" stop-color="#845329"/>
+      <stop offset="1" stop-color="#432a16"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#26292a"/>
+      <stop offset=".32" stop-color="#8b908d"/>
+      <stop offset=".56" stop-color="#484c4b"/>
+      <stop offset=".8" stop-color="#a4a8a3"/>
+      <stop offset="1" stop-color="#222526"/>
+    </linearGradient>
+    <linearGradient id="rug" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4437"/>
+      <stop offset="1" stop-color="#3b2c24"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5dcaa" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e0bd82" stop-opacity=".06"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#warm)"/>
+
+  <g stroke="#d9c39a" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 100h800M0 220h800M0 340h800M0 460h800"/>
+    <path d="M120 0v450M240 0v450M360 0v450M480 0v450M600 0v450M720 0v450"/>
+  </g>
+
+  <!-- окно -->
+  <g>
+    <rect x="62" y="88" width="194" height="270" fill="url(#glass)" stroke="#191c1d" stroke-width="8"/>
+    <rect x="62" y="88" width="194" height="270" fill="none" stroke="#b99a64" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M159 92v262M66 223h186" stroke="#141718" stroke-width="5"/>
+    <path d="M68 92v262M156 92v262" stroke="#f4dfb8" stroke-opacity=".14" stroke-width="1"/>
+    <ellipse cx="160" cy="220" rx="200" ry="190" fill="#f4d9a4" opacity=".07" filter="url(#blur)"/>
+  </g>
+
+  <!-- стена -->
+  <g fill="none" stroke="#e3d0ac" stroke-opacity=".05">
+    <rect x="300" y="70" width="460" height="330"/>
+    <path d="M300 200h460M300 320h460M455 70v330M610 70v330"/>
+  </g>
+
+  <!-- пол -->
+  <path d="M0 424h800v176H0z" fill="#0a0b0b"/>
+  <path d="M0 424h800" stroke="#c2a36b" stroke-opacity=".22"/>
+  <path d="M0 430h800" stroke="#000" stroke-opacity=".5"/>
+
+  <!-- ковёр -->
+  <path d="M86 438h628l-48 116H134z" fill="url(#rug)"/>
+  <path d="M106 448h588l-38 96H144z" fill="none" stroke="#b78f6b" stroke-opacity=".24"/>
+  <path d="M144 448h512M128 470h544M120 492h560M113 514h574" stroke="#caa17b" stroke-opacity=".1" stroke-width="3"/>
+  <ellipse cx="400" cy="560" rx="280" ry="24" fill="#000" opacity=".35" filter="url(#blur)"/>
+
+  <!-- подвесные лампы -->
+  <g>
+    <path d="M402 0v154M522 0v132" stroke="#191c1d" stroke-width="2"/>
+    <path d="M372 154h60l-14 44h-32z" fill="#262a2b" stroke="#101213" stroke-width="2"/>
+    <path d="M376 158h52" stroke="#9a8b6d" stroke-opacity=".4"/>
+    <path d="M492 132h60l-14 42h-32z" fill="#262a2b" stroke="#101213" stroke-width="2"/>
+    <path d="M496 136h52" stroke="#9a8b6d" stroke-opacity=".4"/>
+    <ellipse cx="402" cy="206" rx="72" ry="34" fill="url(#lampGlow)"/>
+    <ellipse cx="522" cy="182" rx="66" ry="30" fill="url(#lampGlow)" opacity=".8"/>
+    <path d="M390 198h24M400 194v14M510 174h24M520 170v14" stroke="#ffd79a" stroke-opacity=".6" stroke-width="1.5"/>
+  </g>
+
+  <!-- задние ножки -->
+  <g fill="url(#steel)">
+    <rect x="235" y="330" width="15" height="138" rx="2"/>
+    <rect x="550" y="330" width="15" height="138" rx="2"/>
+  </g>
+
+  <!-- столешница -->
+  <path d="M206 292h388l-52 92H120z" fill="url(#wood)"/>
+  <path d="M120 384h622v20H120z" fill="url(#woodEdge)"/>
+  <path d="M120 384h622" stroke="#d8a66d" stroke-opacity=".32"/>
+  <path d="M120 404h622" stroke="#1e1209" stroke-opacity=".6"/>
+  <path d="M208 298h384" stroke="#dfae73" stroke-opacity=".42" stroke-width="2"/>
+  <g stroke="#4c2f18" stroke-opacity=".28" stroke-width="1.2">
+    <path d="M232 316h350"/>
+    <path d="M218 334h376"/>
+    <path d="M204 352h396"/>
+    <path d="M188 370h416"/>
+    <path d="M262 304c60 4 120 4 180 0s120-3 150 1"/>
+  </g>
+  <path d="M206 292h388l-52 92H120z" fill="none" stroke="#e1b47b" stroke-opacity=".18"/>
+
+  <!-- передние ножки -->
+  <g fill="url(#steel)">
+    <rect x="150" y="404" width="17" height="132" rx="2"/>
+    <rect x="638" y="404" width="17" height="132" rx="2"/>
+  </g>
+  <g fill="url(#steel)">
+    <rect x="148" y="480" width="21" height="7" rx="2"/>
+    <rect x="636" y="480" width="21" height="7" rx="2"/>
+  </g>
+  <path d="M154 408h3v122h-3z" fill="#fff" opacity=".18"/>
+  <path d="M642 408h3v122h-3z" fill="#fff" opacity=".18"/>
+  <rect x="160" y="446" width="492" height="8" rx="2" fill="url(#steel)"/>
+  <rect x="160" y="446" width="492" height="2" fill="#fff" opacity=".12"/>
+
+  <!-- ваза с ветками -->
+  <g>
+    <path d="M290 292c-4 30-7 52 4 64 11 11 34 11 45 0 11-12 8-34 4-64z" fill="#2f3332"/>
+    <path d="M297 296c-3 28-5 46 4 57 7 8 20 8 27 0 9-11 7-29 4-57z" fill="#5b5f5b" opacity=".35"/>
+    <path d="M316 292c-2-36 2-62 18-86M320 270c-16-6-26-20-28-38M322 250c14-6 22-16 24-30" fill="none" stroke="#8f7b55" stroke-width="2" stroke-linecap="round"/>
+    <g fill="#7d7048">
+      <ellipse cx="336" cy="202" rx="5" ry="11" transform="rotate(38 336 202)"/>
+      <ellipse cx="310" cy="241" rx="5" ry="10" transform="rotate(-52 310 241)"/>
+      <ellipse cx="338" cy="246" rx="4" ry="9" transform="rotate(58 338 246)"/>
+      <ellipse cx="298" cy="259" rx="4" ry="8" transform="rotate(-38 298 259)"/>
+    </g>
+    <path d="M284 300h62" stroke="#0d0f10" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+
+  <!-- книги и чаша -->
+  <g>
+    <rect x="470" y="344" width="94" height="10" rx="2" fill="#7a4a30"/>
+    <rect x="476" y="334" width="86" height="10" rx="2" fill="#8d8067"/>
+    <rect x="484" y="324" width="72" height="10" rx="2" fill="#3f4b46"/>
+    <path d="M560 336h56v16c0 8-8 14-18 14h-20c-10 0-18-6-18-14z" fill="#4e5250"/>
+    <path d="M566 338h44" stroke="#a7aaa4" stroke-opacity=".28"/>
+  </g>
+
+  <ellipse cx="400" cy="418" rx="270" ry="20" fill="#000" opacity=".32" filter="url(#blur)"/>
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>

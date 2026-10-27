@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Кованые перила крупным планом: дубовый поручень, латунь и кованый узор">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#252c30"/>
+      <stop offset=".4" stop-color="#171c1f"/>
+      <stop offset="1" stop-color="#090b0c"/>
+    </linearGradient>
+    <radialGradient id="warm" cx=".22" cy=".1" r=".95">
+      <stop offset="0" stop-color="#e6bb72" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#d7a75f" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#d7a75f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".45" r=".72">
+      <stop offset=".4" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".66"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#422b18"/>
+      <stop offset=".12" stop-color="#80522d"/>
+      <stop offset=".3" stop-color="#ab7644"/>
+      <stop offset=".48" stop-color="#6c4324"/>
+      <stop offset=".7" stop-color="#b9824b"/>
+      <stop offset=".88" stop-color="#603b1d"/>
+      <stop offset="1" stop-color="#372312"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2b2e2f"/>
+      <stop offset=".28" stop-color="#a2a6a2"/>
+      <stop offset=".52" stop-color="#5a5e5d"/>
+      <stop offset=".78" stop-color="#b9bcb7"/>
+      <stop offset="1" stop-color="#26292a"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b542d"/>
+      <stop offset=".2" stop-color="#d8b77a"/>
+      <stop offset=".44" stop-color="#a48248"/>
+      <stop offset=".66" stop-color="#efd9a7"/>
+      <stop offset=".86" stop-color="#967540"/>
+      <stop offset="1" stop-color="#574427"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <g id="scroll">
+      <path d="M-72 66C-96 26-89-25-52-52-16-78 36-71 62-38 85-9 82 31 59 53 41 70 14 72-6 56-26 40-28 12-10-4 6-18 32-14 42 4 50 19 42 38 28 44" fill="none" stroke="url(#brass)" stroke-width="4.4" stroke-linecap="round"/>
+      <path d="M72 66C96 26 89-25 52-52 16-78-36-71-62-38-85-9-82 31-59 53-41 70-14 72 6 56 26 40 28 12 10-4-6-18-32-14-42 4-50 19-42 38-28 44" fill="none" stroke="url(#brass)" stroke-width="4.4" stroke-linecap="round"/>
+      <path d="M0-74v148" stroke="url(#metal)" stroke-width="5"/>
+      <circle cx="0" cy="-8" r="10" fill="none" stroke="url(#brass)" stroke-width="3.2"/>
+      <circle cx="0" cy="-8" r="2.4" fill="#e7cd98"/>
+    </g>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#warm)"/>
+
+  <g stroke="#d9c39a" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 120h800M0 260h800M0 400h800M0 540h800M0 680h800M0 820h800"/>
+    <path d="M20 0v900M140 0v900M260 0v900M380 0v900M500 0v900M620 0v900M740 0v900"/>
+  </g>
+
+  <!-- стена и пол -->
+  <rect x="36" y="60" width="728" height="800" fill="none" stroke="#e3d0ac" stroke-opacity=".06"/>
+  <path d="M0 900h800v100H0z" fill="#070909"/>
+  <path d="M0 900h800" stroke="#c2a36b" stroke-opacity=".26"/>
+  <path d="M0 908h800" stroke="#000" stroke-opacity=".5"/>
+  <ellipse cx="400" cy="918" rx="340" ry="30" fill="#000" opacity=".6" filter="url(#blur)"/>
+
+  <!-- световое пятно на стене -->
+  <ellipse cx="160" cy="320" rx="260" ry="330" fill="#dcae68" opacity=".06"/>
+  <path d="M72 80 320 80 170 500 0 500z" fill="#e8c58b" opacity=".025"/>
+
+  <!-- поручень -->
+  <g>
+    <rect x="40" y="176" width="720" height="36" rx="16" fill="url(#wood)"/>
+    <path d="M64 184h670" stroke="#e5b77e" stroke-opacity=".32" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M48 204h702" stroke="#2b1a0d" stroke-opacity=".55" stroke-width="2.5"/>
+    <rect x="58" y="176" width="9" height="36" rx="4" fill="url(#brass)"/>
+    <rect x="733" y="176" width="9" height="36" rx="4" fill="url(#brass)"/>
+    <g stroke="#3b2413" stroke-opacity=".28" stroke-width="1">
+      <path d="M110 186c90-5 170 6 260 0s180-6 280 2"/>
+      <path d="M140 196c100 5 190-6 270 0s160 5 240-1"/>
+    </g>
+  </g>
+
+  <rect x="44" y="218" width="712" height="8" rx="2" fill="url(#metal)"/>
+  <rect x="44" y="802" width="712" height="16" rx="3" fill="url(#metal)"/>
+  <path d="M50 805h700" stroke="#d5d8d3" stroke-opacity=".28" stroke-width="1"/>
+
+  <!-- стойки -->
+  <g fill="url(#metal)">
+    <rect x="46" y="210" width="24" height="600" rx="3"/>
+    <rect x="730" y="210" width="24" height="600" rx="3"/>
+  </g>
+  <g fill="url(#brass)">
+    <rect x="41" y="204" width="34" height="9" rx="2"/>
+    <rect x="725" y="204" width="34" height="9" rx="2"/>
+    <rect x="44" y="808" width="28" height="11" rx="2"/>
+    <rect x="728" y="808" width="28" height="11" rx="2"/>
+  </g>
+  <g fill="url(#metal)" stroke="#1b1d1e" stroke-width="1">
+    <path d="M39 196h38l-7-15H46z"/>
+    <path d="M723 196h38l-7-15h-24z"/>
+  </g>
+
+  <!-- прутья -->
+  <g fill="url(#metal)">
+    <rect x="118" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="166" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="214" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="262" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="310" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="484" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="532" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="580" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="628" y="228" width="5.5" height="573" rx="2.75"/>
+    <rect x="676" y="228" width="5.5" height="573" rx="2.75"/>
+  </g>
+  <g fill="url(#brass)">
+    <rect x="115" y="350" width="12" height="7" rx="2"/>
+    <rect x="163" y="350" width="12" height="7" rx="2"/>
+    <rect x="211" y="350" width="12" height="7" rx="2"/>
+    <rect x="259" y="350" width="12" height="7" rx="2"/>
+    <rect x="307" y="350" width="12" height="7" rx="2"/>
+    <rect x="481" y="350" width="12" height="7" rx="2"/>
+    <rect x="529" y="350" width="12" height="7" rx="2"/>
+    <rect x="577" y="350" width="12" height="7" rx="2"/>
+    <rect x="625" y="350" width="12" height="7" rx="2"/>
+    <rect x="673" y="350" width="12" height="7" rx="2"/>
+  </g>
+
+  <!-- главный кованый узел -->
+  <g transform="translate(400 592) scale(1.46)">
+    <use href="#scroll"/>
+    <path d="M-118-74C-96-118-48-138 0-138 48-138 96-118 118-74" fill="none" stroke="url(#brass)" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M-62-112c18-15 42-22 62-22s44 7 62 22" fill="none" stroke="url(#brass)" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="0" cy="-138" r="9" fill="none" stroke="url(#brass)" stroke-width="3"/>
+    <circle cx="0" cy="-138" r="3" fill="#e7cd98"/>
+  </g>
+
+  <!-- верхний малый узел -->
+  <g transform="translate(400 360) scale(.62)" opacity=".9">
+    <use href="#scroll"/>
+  </g>
+
+  <!-- блики металла -->
+  <path d="M58 220h4v588h-4z" fill="#eef0eb" opacity=".18"/>
+  <path d="M742 220h4v588h-4z" fill="#eef0eb" opacity=".18"/>
+  <path d="M120 230h2v568h-2z" fill="#eef0eb" opacity=".22"/>
+  <path d="M168 230h2v568h-2z" fill="#eef0eb" opacity=".16"/>
+  <path d="M486 230h2v568h-2z" fill="#eef0eb" opacity=".22"/>
+  <path d="M630 230h2v568h-2z" fill="#eef0eb" opacity=".16"/>
+
+  <rect width="800" height="1000" fill="url(#vig)"/>
+</svg>

@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Барная стойка из дуба с латунным каркасом и барными стульями">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#252a2c"/>
+      <stop offset=".55" stop-color="#171b1d"/>
+      <stop offset="1" stop-color="#0b0c0d"/>
+    </linearGradient>
+    <radialGradient id="warm" cx=".5" cy=".1" r=".8">
+      <stop offset="0" stop-color="#eac17d" stop-opacity=".26"/>
+      <stop offset=".55" stop-color="#dcae68" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#dcae68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd79a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#ffd79a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".46" r=".76">
+      <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".64"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#54371d"/>
+      <stop offset=".18" stop-color="#96623a"/>
+      <stop offset=".42" stop-color="#7a4e2b"/>
+      <stop offset=".68" stop-color="#a87245"/>
+      <stop offset=".86" stop-color="#6a4324"/>
+      <stop offset="1" stop-color="#452c17"/>
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d09b62"/>
+      <stop offset=".28" stop-color="#a97042"/>
+      <stop offset=".75" stop-color="#7b4d29"/>
+      <stop offset="1" stop-color="#56351b"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5e4928"/>
+      <stop offset=".26" stop-color="#d9b878"/>
+      <stop offset=".5" stop-color="#9e7c43"/>
+      <stop offset=".74" stop-color="#efd7a2"/>
+      <stop offset="1" stop-color="#514022"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a1d1d"/>
+      <stop offset=".3" stop-color="#4f5351"/>
+      <stop offset=".55" stop-color="#232626"/>
+      <stop offset=".8" stop-color="#5d615d"/>
+      <stop offset="1" stop-color="#141717"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3d3a"/>
+      <stop offset="1" stop-color="#1b1d1c"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#warm)"/>
+
+  <g stroke="#d9c39a" stroke-opacity=".045" stroke-width="1">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800"/>
+    <path d="M100 0v520M200 0v520M300 0v520M400 0v520M500 0v520M600 0v520M700 0v520"/>
+  </g>
+
+  <!-- фартук -->
+  <rect x="40" y="300" width="720" height="62" fill="#161a1b"/>
+  <g stroke="#b9a479" stroke-opacity=".09">
+    <path d="M40 322h720M40 344h720"/>
+    <path d="M120 300v62M200 300v62M280 300v62M360 300v62M440 300v62M520 300v62M600 300v62M680 300v62"/>
+  </g>
+
+  <!-- полки с посудой -->
+  <g>
+    <rect x="86" y="150" width="628" height="11" rx="2" fill="url(#wood)"/>
+    <rect x="86" y="150" width="628" height="4" rx="2" fill="#c08c58" opacity=".5"/>
+    <rect x="86" y="242" width="628" height="11" rx="2" fill="url(#wood)"/>
+    <rect x="86" y="242" width="628" height="4" rx="2" fill="#c08c58" opacity=".5"/>
+    <g fill="url(#brass)">
+      <rect x="80" y="146" width="8" height="111" rx="2"/>
+      <rect x="712" y="146" width="8" height="111" rx="2"/>
+    </g>
+    <rect x="86" y="298" width="628" height="4" fill="#e8c17e" opacity=".12"/>
+
+    <!-- верхняя полка: бутылки и вазы -->
+    <g>
+      <path d="M136 116v34h-18v-34c0-8 4-10 4-18h10c0 8 4 10 4 18z" fill="#3f5149"/>
+      <rect x="130" y="92" width="6" height="16" fill="#3f5149"/>
+      <path d="M174 112v38h-16v-38c0-8 3-10 3-18h10c0 8 3 10 3 18z" fill="#6b5236"/>
+      <rect x="169" y="88" width="5" height="14" fill="#6b5236"/>
+      <path d="M222 120v30h-26v-30c0-10 7-14 13-14s13 4 13 14z" fill="#a8a18d"/>
+      <path d="M210 106v-12" stroke="#a8a18d" stroke-width="3"/>
+      <path d="M274 124v26h-34v-26z" fill="#54463a"/>
+      <path d="M282 106c0-10 8-18 18-18s18 8 18 18v44h-36z" fill="#5b5f5b"/>
+      <circle cx="300" cy="96" r="6" fill="#5b5f5b"/>
+      <path d="M350 110h12v40h-12z" fill="#7e5f3d"/>
+      <path d="M352 110c0-10 2-14 4-18 2 4 4 8 4 18z" fill="#7e5f3d"/>
+      <path d="M404 118c0-8 7-15 15-15s15 7 15 15v32h-30z" fill="#8e8e7a"/>
+      <rect x="462" y="108" width="10" height="42" fill="#4d4a3b"/>
+      <rect x="478" y="116" width="8" height="34" fill="#6e583d"/>
+      <rect x="492" y="112" width="12" height="38" fill="#49564f"/>
+      <path d="M554 150v-34c0-9 7-16 16-16s16 7 16 16v34z" fill="#5d5342"/>
+      <path d="M562 132c0-11 3-17 8-17s8 6 8 17" fill="none" stroke="#a39378" stroke-opacity=".28"/>
+      <path d="M626 150v-38h30v38z" fill="#4b3b2d"/>
+      <path d="M634 112v-10M648 112v-10" stroke="#8d795b" stroke-width="3"/>
+    </g>
+
+    <!-- нижняя полка: банки и книги -->
+    <g>
+      <rect x="126" y="198" width="16" height="44" rx="2" fill="#6b5035"/>
+      <rect x="146" y="206" width="12" height="36" rx="2" fill="#4c5a50"/>
+      <rect x="162" y="194" width="14" height="48" rx="2" fill="#8b6f4b"/>
+      <rect x="198" y="210" width="36" height="32" rx="3" fill="#5f5f54"/>
+      <path d="M206 218h20M206 226h20M206 234h20" stroke="#9f9a82" stroke-opacity=".22"/>
+      <rect x="262" y="200" width="46" height="42" rx="3" fill="#54422f"/>
+      <path d="M270 210h30M270 220h30M270 230h30" stroke="#a8865b" stroke-opacity=".25"/>
+      <path d="M336 242v-34c0-7 5-12 12-12s12 5 12 12v34z" fill="#8b8776"/>
+      <path d="M348 196v-8" stroke="#8b8776" stroke-width="2"/>
+      <rect x="404" y="206" width="10" height="36" fill="#87704a"/>
+      <rect x="418" y="198" width="13" height="44" fill="#4e5b52"/>
+      <rect x="435" y="210" width="9" height="32" fill="#9b7b4c"/>
+      <rect x="448" y="202" width="11" height="40" fill="#5b4633"/>
+      <rect x="510" y="204" width="50" height="38" rx="2" fill="#6c5036"/>
+      <path d="M518 214h34M518 224h34M518 234h34" stroke="#b1895b" stroke-opacity=".24"/>
+      <path d="M600 242v-38h44v38z" fill="#4c3c2c"/>
+      <path d="M608 204v38M636 204v38" stroke="#2b2118" stroke-opacity=".5"/>
+    </g>
+  </g>
+
+  <!-- подвесные лампы -->
+  <g>
+    <path d="M330 0v128M530 0v110" stroke="#171a1a" stroke-width="2"/>
+    <path d="M298 128h64l-16 44h-32z" fill="url(#brass)" stroke="#171a1a" stroke-width="2"/>
+    <path d="M498 110h64l-16 42h-32z" fill="url(#brass)" stroke="#171a1a" stroke-width="2"/>
+    <path d="M306 133h48M506 115h48" stroke="#f0d9a9" stroke-opacity=".45"/>
+    <circle cx="330" cy="180" r="7" fill="#ffd79a"/>
+    <circle cx="530" cy="160" r="6" fill="#ffd79a"/>
+    <circle cx="330" cy="184" r="60" fill="url(#lampGlow)"/>
+    <circle cx="530" cy="166" r="52" fill="url(#lampGlow)" opacity=".75"/>
+  </g>
+
+  <!-- пол -->
+  <path d="M0 520h800v80H0z" fill="#0a0b0b"/>
+  <path d="M0 520h800" stroke="#c2a36b" stroke-opacity=".18"/>
+  <ellipse cx="400" cy="538" rx="300" ry="24" fill="#000" opacity=".55" filter="url(#blur)"/>
+
+  <!-- барная стойка -->
+  <g>
+    <path d="M186 336h430l46 34H142z" fill="url(#woodTop)"/>
+    <path d="M142 370h520v17H142z" fill="url(#wood)"/>
+    <path d="M142 370h520" stroke="#e0aa70" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M142 387h520" stroke="#1d1209" stroke-opacity=".6"/>
+    <path d="M192 342h410" stroke="#ecc088" stroke-opacity=".28" stroke-width="2"/>
+    <g stroke="#4f3018" stroke-opacity=".23" stroke-width="1">
+      <path d="M218 350h360M198 360h414"/>
+      <path d="M250 344c70 4 150 4 240 0"/>
+    </g>
+
+    <!-- корпус -->
+    <rect x="170" y="387" width="466" height="142" fill="url(#wood)"/>
+    <g stroke="#371f0e" stroke-opacity=".5" stroke-width="2">
+      <path d="M192 390v136M214 390v136M236 390v136M258 390v136M280 390v136M302 390v136M324 390v136M346 390v136M368 390v136M390 390v136M412 390v136M434 390v136M456 390v136M478 390v136M500 390v136M522 390v136M544 390v136M566 390v136M588 390v136M610 390v136"/>
+    </g>
+    <g stroke="#d9a267" stroke-opacity=".13" stroke-width="1">
+      <path d="M190 392v132M212 392v132M234 392v132M256 392v132M278 392v132M300 392v132M322 392v132M344 392v132M366 392v132M388 392v132M410 392v132M432 392v132M454 392v132M476 392v132M498 392v132M520 392v132M542 392v132M564 392v132M586 392v132M608 392v132"/>
+    </g>
+
+    <!-- латунные накладки -->
+    <rect x="164" y="384" width="478" height="7" fill="url(#brass)"/>
+    <rect x="164" y="524" width="478" height="8" fill="url(#brass)"/>
+    <rect x="164" y="384" width="7" height="148" fill="url(#brass)"/>
+    <rect x="635" y="384" width="7" height="148" fill="url(#brass)"/>
+    <g fill="url(#brass)">
+      <rect x="182" y="486" width="442" height="6" rx="3"/>
+      <rect x="176" y="478" width="16" height="22" rx="3"/>
+      <rect x="614" y="478" width="16" height="22" rx="3"/>
+    </g>
+    <path d="M176 486h16M614 486h16" stroke="#f0d8a4" stroke-opacity=".4"/>
+
+    <!-- подсветка под стойкой -->
+    <rect x="180" y="528" width="446" height="3" fill="#ffcf8a" opacity=".3"/>
+    <ellipse cx="400" cy="542" rx="250" ry="16" fill="#e8b46c" opacity=".09" filter="url(#blur)"/>
+
+    <!-- декор на стойке -->
+    <g>
+      <path d="M282 336v-24c0-9 7-16 16-16s16 7 16 16v24z" fill="#6d6f64"/>
+      <path d="M298 296v-34M298 272c-11-4-16-13-15-24 10 3 15 12 15 24ZM298 282c10-4 15-13 14-23-9 3-14 12-14 23Z" fill="none" stroke="#777b58" stroke-width="2"/>
+      <rect x="470" y="308" width="10" height="28" rx="2" fill="#c9c4b0" opacity=".6"/>
+      <rect x="486" y="314" width="10" height="22" rx="2" fill="#a9a48e" opacity=".55"/>
+      <path d="M516 316h10v20h-10z" fill="#8a6d47"/>
+      <path d="M520 316v-12" stroke="#8a6d47" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- барные стулья -->
+  <g>
+    <g>
+      <path d="M286 458h76l-6 16h-64z" fill="url(#wood)"/>
+      <path d="M286 452h76v12h-76z" fill="url(#woodTop)"/>
+      <path d="M292 456h64" stroke="#dda86e" stroke-opacity=".35"/>
+      <g stroke="url(#steel)" stroke-width="6" stroke-linecap="round">
+        <path d="M296 466 280 552M352 466l16 86M306 468l4 84M342 468l-4 84"/>
+      </g>
+      <path d="M286 512c18-10 58-10 76 0" fill="none" stroke="url(#brass)" stroke-width="3"/>
+    </g>
+    <g>
+      <path d="M512 458h76l-6 16h-64z" fill="url(#wood)"/>
+      <path d="M512 452h76v12h-76z" fill="url(#woodTop)"/>
+      <path d="M518 456h64" stroke="#dda86e" stroke-opacity=".35"/>
+      <g stroke="url(#steel)" stroke-width="6" stroke-linecap="round">
+        <path d="M522 466 506 552M578 466l16 86M532 468l4 84M568 468l-4 84"/>
+      </g>
+      <path d="M512 512c18-10 58-10 76 0" fill="none" stroke="url(#brass)" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- блики -->
+  <path d="M180 394h2v126h-2z" fill="#fff" opacity=".08"/>
+  <path d="M626 394h2v126h-2z" fill="#fff" opacity=".06"/>
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>

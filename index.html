@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мебель перила</title>
+  <meta name="description" content="Проектирование, изготовление и монтаж перил, лестниц и мебели из металла и дерева.">
+  <meta name="theme-color" content="#f7f1e6">
+  <meta property="og:title" content="Мебель перила">
+  <meta property="og:description" content="Проектирование, изготовление и монтаж перил, лестниц и мебели из металла и дерева.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/furniture.svg">
+  <link rel="icon" href="assets/furniture.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#works">Перейти к работам</a>
+
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <img class="logo__mark-img" src="assets/furniture.svg" alt="Мебель перила" width="38" height="38">
+        <span class="logo__text">
+          <strong>Мебель перила</strong>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#works">Работы</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Процесс</a>
+        <a href="#contact">Контакты</a>
+        <a class="nav__cta" href="#contact">Рассчитать проект</a>
+      </nav>
+
+      <a class="btn btn--ghost header__cta" href="#contact">
+        Рассчитать проект
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow reveal">
+            <span class="eyebrow__dot"></span>
+            Проектирование · изготовление · монтаж
+          </p>
+          <h1 class="hero__title reveal" id="hero-title" style="--delay:.08s">
+            Металл, дерево<br>
+            и <em>точность</em><br>
+            в каждой детали
+          </h1>
+          <p class="hero__lead reveal" style="--delay:.16s">
+            Проектирую и изготавливаю перила, лестницы и мебель из металла и дерева.
+            От эскиза до монтажа — продуманные решения под задачу.
+          </p>
+          <div class="hero__actions reveal" style="--delay:.24s">
+            <a class="btn btn--primary" href="#works">
+              Смотреть работы
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="link-arrow" href="#contact">Рассчитать проект</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Проектирование</span><i>✦</i>
+        <span>Перила</span><i>✦</i>
+        <span>Лестницы</span><i>✦</i>
+        <span>Мебель</span><i>✦</i>
+        <span>Ограждения</span><i>✦</i>
+        <span>Барные стойки</span><i>✦</i>
+        <span>Проектирование</span><i>✦</i>
+        <span>Перила</span><i>✦</i>
+        <span>Лестницы</span><i>✦</i>
+        <span>Мебель</span><i>✦</i>
+        <span>Ограждения</span><i>✦</i>
+        <span>Барные стойки</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="section works" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__dot"></span>Избранные работы</p>
+            <h2 class="section-title" id="works-title">Вещи, которые<br><em>остаются в семье</em></h2>
+          </div>
+          <p class="section-head__text">
+            Не каталог. Каждый проект — отдельная история о доме, его ритме и людях,
+            для которых он сделан. Нажмите на работу, чтобы рассмотреть детали.
+          </p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Фильтр работ">
+          <button class="filter is-active" type="button" data-filter="all">Все <span>08</span></button>
+          <button class="filter" type="button" data-filter="railings">Перила <span>02</span></button>
+          <button class="filter" type="button" data-filter="stairs">Лестницы <span>01</span></button>
+          <button class="filter" type="button" data-filter="furniture">Мебель <span>04</span></button>
+          <button class="filter" type="button" data-filter="interior">Интерьер <span>01</span></button>
+        </div>
+
+        <div class="works__grid" id="works-grid">
+          <article class="work reveal" data-category="railings">
+            <button class="work__media" type="button" data-lightbox data-src="assets/railing.svg" data-title="Перила в загородном доме" data-desc="Ковка · брашированный дуб · латунь · 2025">
+              <img src="assets/railing.svg" alt="Кованые перила с дубовым поручнем" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Перила в загородном доме</h3>
+                <p>Ковка · дуб · латунь</p>
+              </div>
+              <span class="work__year">2025</span>
+            </div>
+          </article>
+
+          <article class="work reveal" data-category="stairs" style="--delay:.06s">
+            <button class="work__media" type="button" data-lightbox data-src="assets/stairs.svg" data-title="Лестница на стальном косоуре" data-desc="Ясень · шлифованный металл · 2024">
+              <img src="assets/stairs.svg" alt="Лестница на стальном косоуре с деревянными ступенями" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Лестница на стальном косоуре</h3>
+                <p>Ясень · шлифованный металл</p>
+              </div>
+              <span class="work__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work reveal" data-category="furniture" style="--delay:.12s">
+            <button class="work__media" type="button" data-lightbox data-src="assets/table.svg" data-title="Обеденный стол «Лофт»" data-desc="Массив дуба · сталь · масло-воск · 2025">
+              <img src="assets/table.svg" alt="Обеденный стол из массива дуба на стальных ножках" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Обеденный стол «Лофт»</h3>
+                <p>Массив дуба · сталь</p>
+              </div>
+              <span class="work__year">2025</span>
+            </div>
+          </article>
+
+          <article class="work reveal" data-category="furniture">
+            <button class="work__media" type="button" data-lightbox data-src="assets/shelf.svg" data-title="Библиотека в кабинете" data-desc="Металл · орех · индивидуальные размеры · 2024">
+              <img src="assets/shelf.svg" alt="Стеллаж-библиотека с металлическим каркасом и полками из ореха" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Библиотека в кабинете</h3>
+                <p>Металл · орех</p>
+              </div>
+              <span class="work__year">2024</span>
+            </div>
+          </article>
+
+          <!-- Ворота убраны -->
+
+          <article class="work reveal" data-category="furniture" style="--delay:.12s">
+            <button class="work__media" type="button" data-lightbox data-src="assets/bench.svg" data-title="Садовая скамья" data-desc="Термоясень · чугун · 2023">
+              <img src="assets/bench.svg" alt="Садовая скамья из термоясеня на чугунных ножках" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Садовая скамья</h3>
+                <p>Термоясень · чугун</p>
+              </div>
+              <span class="work__year">2023</span>
+            </div>
+          </article>
+
+          <article class="work reveal" data-category="furniture">
+            <button class="work__media" type="button" data-lightbox data-src="assets/bar.svg" data-title="Барная стойка для кухни" data-desc="Дуб · латунь · кварцевый камень · 2025">
+              <img src="assets/bar.svg" alt="Барная стойка из дуба с латунным каркасом и подсветкой" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Барная стойка для кухни</h3>
+                <p>Дуб · латунь</p>
+              </div>
+              <span class="work__year">2025</span>
+            </div>
+          </article>
+
+          <!-- Каминный портал убран -->
+
+          <article class="work reveal" data-category="railings" style="--delay:.12s">
+            <button class="work__media" type="button" data-lightbox data-src="assets/terrace.svg" data-title="Ограждение террасы" data-desc="Нержавеющая сталь · закалённое стекло · 2024">
+              <img src="assets/terrace.svg" alt="Ограждение террасы из стекла и нержавеющей стали" loading="lazy" width="800" height="600">
+              <span class="work__zoom">Рассмотреть<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11 11 3M4.5 3H11v6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="work__meta">
+              <div>
+                <h3>Ограждение террасы</h3>
+                <p>Нержавеющая сталь · стекло</p>
+              </div>
+              <span class="work__year">2024</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="works__note reveal">
+          <span>Нужен проект под задачу?</span> Спроектирую и изготовлю решение под ваши размеры.
+          <a class="link-arrow" href="#contact">Рассчитать проект</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head section-head--compact">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__dot"></span>Чем занимаюсь</p>
+            <h2 class="section-title" id="services-title">Направления<br><em>работы</em></h2>
+          </div>
+          <p class="section-head__text">
+            Проектирование, изготовление и монтаж. Уделяю внимание пропорциям, тактильности и прочности.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">01</span>
+            <span class="service__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 26h24M6 26V15M26 26V15M6 15h20M10 15V9M16 15V6M22 15V9M8 11c0-2 2-2 2-4M14 8c0-2 2-2 2-4M20 11c0-2 2-2 2-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <h3>Перила и ограждения</h3>
+            <p>Кованые, сварные и комбинированные с деревом. Для лестниц, балконов, террас и общественных пространств.</p>
+            <ul>
+              <li>Расчёт нагрузок и безопасные зазоры</li>
+              <li>Порошковая окраска и патина</li>
+              <li>Монтаж без повреждения отделки</li>
+            </ul>
+          </article>
+
+          <article class="service reveal" style="--delay:.06s">
+            <span class="service__num" aria-hidden="true">02</span>
+            <span class="service__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 27h24M6 27V20h5v-5h5V9h5V4h5M11 27V20M16 27v-7M21 27V9M26 27V4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Лестницы</h3>
+            <p>От компактной винтовой до парадной маршевой. Проектирую каркас, ступени и ограждение как единое целое.</p>
+            <ul>
+              <li>3D-визуализация до начала работ</li>
+              <li>Стальной косоур или тетива</li>
+              <li>Обшивка дубом, ясенем, орехом</li>
+            </ul>
+          </article>
+
+          <article class="service reveal" style="--delay:.12s">
+            <span class="service__num" aria-hidden="true">03</span>
+            <span class="service__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 15h24M6 15v10M26 15v10M8 15V8h16v7M11 15V8M16 15V8M21 15V8M8 25h-2M26 25h-2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Мебель на заказ</h3>
+            <p>Столы, стеллажи, барные стойки, кровати и консоли. Металл и дерево в честной конструкции, без декоративной имитации.</p>
+            <ul>
+              <li>Под размеры вашего пространства</li>
+              <li>Массив, шпон, кварцевый камень</li>
+              <li>Защитные масла и лаки для столешниц</li>
+            </ul>
+          </article>
+
+          <article class="service reveal" style="--delay:.18s">
+            <span class="service__num" aria-hidden="true">04</span>
+            <span class="service__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M6 6h20v4H6zM6 14h20v4H6zM6 22h20v4H6z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <h3>Проектирование</h3>
+            <p>Разработка эскизов, чертежей и узлов под пространство. Подбор материалов и продуманная конструкция.</p>
+            <ul>
+              <li>Эскизы и чертежи</li>
+              <li>Расчёт конструкции</li>
+              <li>Подбор материалов</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок о мастере убран по запросу -->
+
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head section-head--compact">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__dot"></span>Как строится работа</p>
+            <h2 class="section-title" id="process-title">От идеи до<br><em>первого шага</em></h2>
+          </div>
+          <p class="section-head__text">
+            Прозрачный процесс без сюрпризов в смете. Вы всегда знаете, на каком этапе проект
+            и что происходит в мастерской.
+          </p>
+        </div>
+
+        <ol class="process__grid">
+          <li class="process__step reveal">
+            <span class="process__num">01</span>
+            <h3>Знакомство и замер</h3>
+            <p>Обсуждаем задачу и пространство. Можно прислать фото или план.</p>
+            <span class="process__time">1–2 дня</span>
+          </li>
+          <li class="process__step reveal" style="--delay:.06s">
+            <span class="process__num">02</span>
+            <h3>Проект и смета</h3>
+            <p>Разработка эскиза, чертежей, узлов и расчёт стоимости.</p>
+            <span class="process__time">2–5 дней</span>
+          </li>
+          <li class="process__step reveal" style="--delay:.12s">
+            <span class="process__num">03</span>
+            <h3>Изготовление</h3>
+            <p>Производство из металла и дерева с согласованием ключевых узлов.</p>
+            <span class="process__time">3–6 недель</span>
+          </li>
+          <li class="process__step reveal" style="--delay:.18s">
+            <span class="process__num">04</span>
+            <h3>Монтаж</h3>
+            <p>Установка и проверка. Передача готового решения.</p>
+            <span class="process__time">1–2 дня</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Отзывы убраны по запросу -->
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__panel reveal">
+          <div class="contact__info">
+            <p class="eyebrow"><span class="eyebrow__dot"></span>Контакты</p>
+            <h2 class="section-title" id="contact-title">Расскажите<br><em>о вашем проекте</em></h2>
+            <p class="contact__lead">
+              Достаточно описания задачи и размеров. Ответ по возможности — в рабочее время.
+            </p>
+          </div>
+
+          <form class="form" id="project-form" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Заявка с сайта Мебель перила">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__head">
+              <h3>Заявка на проект</h3>
+              <span>Для связи</span>
+            </div>
+
+            <noscript>
+              <p class="form__noscript">Для отправки формы нужен JavaScript.</p>
+            </noscript>
+
+            <div class="field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="Имя" placeholder="Как к вам обращаться" required maxlength="80">
+            </div>
+
+            <div class="field">
+              <label for="contact">Контакт для связи</label>
+              <input type="text" id="contact" name="Контакт для связи" placeholder="Телефон, Telegram или почта" required maxlength="120">
+            </div>
+
+            <div class="field">
+              <label for="type">Направление</label>
+              <div class="select-wrap">
+                <select id="type" name="Направление" required>
+                  <option value="" selected disabled>Выберите направление</option>
+                  <option value="Перила и ограждения">Перила и ограждения</option>
+                  <option value="Лестница">Лестница</option>
+                  <option value="Мебель на заказ">Мебель на заказ</option>
+                  <option value="Проектирование">Проектирование</option>
+                  <option value="Другое">Другое</option>
+                </select>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="m1 1.5 5 5 5-5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Описание проекта</label>
+              <textarea id="message" name="Описание проекта" rows="6" maxlength="2500" placeholder="Опишите задачу, размеры, пожелания" required></textarea>
+            </div>
+
+            <button class="btn btn--primary form__submit" type="submit">
+              Отправить заявку
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <p class="form__hint">Укажите имя и контакт для связи</p>
+
+            <div class="form__error" id="form-error" role="alert" hidden>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 7v6M12 17h.01M10.3 3.9 2.9 17a1.6 1.6 0 0 0 1.4 2.4h15.4a1.6 1.6 0 0 0 1.4-2.4L13.7 3.9a2 2 0 0 0-3.4 0Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <strong>Заполните форму.</strong>
+                <span>Нужно указать имя, контакт для связи, направление и описание проекта.</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="logo logo--footer" href="#top">
+        <img class="logo__mark-img" src="assets/furniture.svg" alt="Мебель перила" width="34" height="34">
+        <span class="logo__text">
+          <strong>Мебель перила</strong>
+        </span>
+      </a>
+
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#works">Работы</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Процесс</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <p class="footer__copy">© 2026. Проектирование, изготовление и монтаж из металла и дерева.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр работы" aria-hidden="true">
+    <button class="lightbox__close" type="button" aria-label="Закрыть">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 4l12 12M16 4 4 16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Предыдущая работа">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M13.5 4 6.5 11l7 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption>
+        <strong id="lightbox-title"></strong>
+        <span id="lightbox-desc"></span>
+      </figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Следующая работа">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M8.5 4l7 7-7 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

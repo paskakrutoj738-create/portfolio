@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Каминный портал из стали и меди с живым огнём">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232628"/>
+      <stop offset=".55" stop-color="#151718"/>
+      <stop offset="1" stop-color="#090a0a"/>
+    </linearGradient>
+    <radialGradient id="roomGlow" cx=".5" cy=".62" r=".55">
+      <stop offset="0" stop-color="#ffab55" stop-opacity=".24"/>
+      <stop offset=".55" stop-color="#e07b31" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#e07b31" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fireGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd08a" stop-opacity=".9"/>
+      <stop offset=".4" stop-color="#ff9a3d" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff7a20" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".46" r=".76">
+      <stop offset=".4" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".66"/>
+    </radialGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2a24"/>
+      <stop offset=".22" stop-color="#8a5a3a"/>
+      <stop offset=".45" stop-color="#b77a4c"/>
+      <stop offset=".62" stop-color="#6f4a37"/>
+      <stop offset=".82" stop-color="#a46c46"/>
+      <stop offset="1" stop-color="#2f2320"/>
+    </linearGradient>
+    <linearGradient id="patina" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a6c62"/>
+      <stop offset=".35" stop-color="#7c5a40"/>
+      <stop offset=".6" stop-color="#4f6d63"/>
+      <stop offset=".82" stop-color="#8a5e40"/>
+      <stop offset="1" stop-color="#32453f"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#171a1a"/>
+      <stop offset=".3" stop-color="#565a58"/>
+      <stop offset=".55" stop-color="#2a2d2d"/>
+      <stop offset=".8" stop-color="#666a66"/>
+      <stop offset="1" stop-color="#141717"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5c4727"/>
+      <stop offset=".28" stop-color="#d8b77a"/>
+      <stop offset=".52" stop-color="#9c7a42"/>
+      <stop offset=".78" stop-color="#efd9a7"/>
+      <stop offset="1" stop-color="#4f3f21"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ff6a1e"/>
+      <stop offset=".45" stop-color="#ffae4d"/>
+      <stop offset=".8" stop-color="#ffe2a4"/>
+      <stop offset="1" stop-color="#fff2c9"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4943"/>
+      <stop offset=".4" stop-color="#2e2d29"/>
+      <stop offset="1" stop-color="#171715"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style>
+      @keyframes flicker {
+        0%, 100% { opacity: .92; }
+        35% { opacity: 1; }
+        60% { opacity: .82; }
+        78% { opacity: .96; }
+      }
+      @keyframes ember {
+        0% { transform: translateY(0); opacity: 0; }
+        20% { opacity: .8; }
+        100% { transform: translateY(-90px); opacity: 0; }
+      }
+      .fire-glow { animation: flicker 3.8s ease-in-out infinite; transform-origin: 400px 430px; }
+      .fire-flame { animation: flicker 2.6s ease-in-out infinite; transform-origin: 400px 470px; }
+      .ember-1 { animation: ember 4.2s linear infinite; }
+      .ember-2 { animation: ember 5.1s linear infinite .8s; }
+      .ember-3 { animation: ember 4.7s linear infinite 1.6s; }
+      @media (prefers-reduced-motion: reduce) {
+        .fire-glow, .fire-flame, .ember-1, .ember-2, .ember-3 { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#roomGlow)"/>
+
+  <!-- каменная стена -->
+  <g stroke="#e3d0ac" stroke-opacity=".04" stroke-width="1">
+    <path d="M0 60h800M0 140h800M0 220h800M0 300h800M0 380h800M0 460h800"/>
+    <path d="M60 0v480M180 0v480M300 0v480M420 0v480M540 0v480M660 0v480M780 0v480"/>
+  </g>
+  <g fill="#000" opacity=".16">
+    <rect x="184" y="64" width="232" height="74"/>
+    <rect x="420" y="64" width="116" height="74"/>
+    <rect x="184" y="142" width="112" height="76"/>
+  </g>
+
+  <!-- пол -->
+  <path d="M0 512h800v88H0z" fill="#090a0a"/>
+  <path d="M0 512h800" stroke="#c2a36b" stroke-opacity=".16"/>
+  <path d="M0 518h800" stroke="#000" stroke-opacity=".45"/>
+  <ellipse cx="400" cy="540" rx="320" ry="26" fill="#f0a24c" opacity=".07" filter="url(#blur)"/>
+
+  <!-- зеркало над камином -->
+  <g>
+    <circle cx="400" cy="78" r="40" fill="#101314" stroke="url(#brass)" stroke-width="5"/>
+    <circle cx="400" cy="78" r="33" fill="#101314" stroke="#d8bd8b" stroke-opacity=".18"/>
+    <path d="M376 94c12-22 28-34 46-38" stroke="#d8bd8b" stroke-opacity=".14" stroke-width="2"/>
+  </g>
+
+  <!-- каминный портал -->
+  <g>
+    <!-- корпус -->
+    <rect x="188" y="164" width="424" height="344" fill="url(#patina)"/>
+    <rect x="188" y="164" width="424" height="344" fill="none" stroke="#1a1411" stroke-width="2"/>
+
+    <!-- панели -->
+    <rect x="204" y="180" width="68" height="312" fill="url(#copper)" stroke="#2a1e18" stroke-width="1.5"/>
+    <rect x="528" y="180" width="68" height="312" fill="url(#copper)" stroke="#2a1e18" stroke-width="1.5"/>
+    <rect x="212" y="190" width="52" height="292" fill="none" stroke="#e0b07d" stroke-opacity=".14"/>
+    <rect x="536" y="190" width="52" height="292" fill="none" stroke="#e0b07d" stroke-opacity=".14"/>
+    <g stroke="#2b4d44" stroke-opacity=".3" stroke-width="3">
+      <path d="M228 210c-6 60 8 120 0 180s4 70 0 90"/>
+      <path d="M250 226c6 50-6 110 0 170"/>
+      <path d="M552 214c-6 60 8 120 0 180s4 70 0 90"/>
+      <path d="M574 232c6 50-6 110 0 170"/>
+    </g>
+    <g stroke="#c98d5d" stroke-opacity=".18" stroke-width="5">
+      <path d="M218 198v292M238 190v292M550 198v292M586 190v292"/>
+    </g>
+
+    <!-- верхняя полка -->
+    <rect x="164" y="146" width="472" height="22" rx="2" fill="url(#copper)"/>
+    <path d="M170 150h460" stroke="#e5b989" stroke-opacity=".35" stroke-width="2"/>
+    <rect x="164" y="168" width="472" height="7" fill="#1c1510" opacity=".55"/>
+    <g fill="url(#brass)">
+      <rect x="298" y="140" width="204" height="6" rx="2"/>
+      <rect x="330" y="134" width="140" height="6" rx="2"/>
+    </g>
+
+    <!-- топка -->
+    <path d="M278 508V344c0-68 54-116 122-116s122 48 122 116v164z" fill="#080706"/>
+    <path d="M278 508V344c0-68 54-116 122-116s122 48 122 116v164" fill="none" stroke="url(#brass)" stroke-width="6"/>
+    <path d="M286 506V344c0-62 50-108 114-108s114 46 114 108v162" fill="none" stroke="#3a2416" stroke-opacity=".5" stroke-width="2"/>
+
+    <!-- кирпичная кладка внутри -->
+    <g stroke="#381f12" stroke-opacity=".55" stroke-width="2">
+      <path d="M300 360h200M300 392h200M300 424h200M300 456h200M300 488h200"/>
+      <path d="M330 340v168M366 328v180M400 324v184M434 328v180M470 340v168"/>
+    </g>
+
+    <!-- дрова и решётка -->
+    <g>
+      <ellipse cx="360" cy="492" rx="64" ry="18" fill="#23150e" stroke="#4c2d1b" stroke-width="2" transform="rotate(-6 360 492)"/>
+      <ellipse cx="446" cy="494" rx="58" ry="16" fill="#1e120c" stroke="#4a2b1a" stroke-width="2" transform="rotate(5 446 494)"/>
+      <ellipse cx="404" cy="478" rx="62" ry="16" fill="#2a190f" stroke="#5c3720" stroke-width="2" transform="rotate(-2 404 478)"/>
+      <path d="M314 496h176M318 486v18M490 486v18" stroke="url(#steel)" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="370" cy="488" rx="28" ry="6" fill="#ff7b2c" opacity=".3"/>
+      <ellipse cx="430" cy="484" rx="22" ry="5" fill="#ffb45d" opacity=".35"/>
+    </g>
+
+    <!-- свет и пламя -->
+    <ellipse class="fire-glow" cx="400" cy="430" rx="180" ry="140" fill="url(#fireGlow)" opacity=".85"/>
+    <g class="fire-flame">
+      <path d="M400 470c-42 0-68-30-64-66 3-32 26-46 34-78 6 22 18 32 16 54 12-10 16-28 14-44 24 24 38 46 38 72 0 34-16 62-38 62z" fill="url(#flame)"/>
+      <path d="M354 472c-24-6-38-26-34-48 3-22 18-32 24-52 8 18 18 26 16 44 8-6 12-16 12-26 14 16 22 32 20 48-2 18-16 34-38 34z" fill="url(#flame)" opacity=".9"/>
+      <path d="M452 474c-22-4-36-24-32-46 3-18 16-28 22-44 8 16 16 24 14 40 8-4 12-14 12-22 12 14 18 30 14 44-4 16-14 28-30 28z" fill="url(#flame)" opacity=".8"/>
+      <path d="M400 462c-16 0-26-12-24-26 2-14 12-20 16-34 4 12 8 18 8 28 4-6 6-12 6-18 10 12 16 20 14 32-2 12-8 18-20 18z" fill="#fff1c7" opacity=".9"/>
+    </g>
+
+    <!-- искры -->
+    <g fill="#ffc46b">
+      <circle class="ember-1" cx="352" cy="430" r="1.7"/>
+      <circle class="ember-2" cx="428" cy="418" r="1.2"/>
+      <circle class="ember-3" cx="390" cy="440" r="1.5"/>
+      <circle cx="460" cy="408" r="1" opacity=".7"/>
+      <circle cx="338" cy="406" r="1" opacity=".5"/>
+    </g>
+
+    <!-- дым -->
+    <g fill="none" stroke="#b6a48c" stroke-width="2" opacity=".08">
+      <path d="M368 336c-18-26 10-40 0-62s8-30 2-48"/>
+      <path d="M430 330c16-24-8-40 2-60s-6-30-2-46"/>
+    </g>
+
+    <!-- блики на меди -->
+    <path d="M210 190v292" stroke="#f0c18c" stroke-opacity=".16" stroke-width="2"/>
+    <path d="M606 190v292" stroke="#f0c18c" stroke-opacity=".1" stroke-width="2"/>
+    <path d="M172 152h456" stroke="#f0c18c" stroke-opacity=".25" stroke-width="1.5"/>
+  </g>
+
+  <!-- каменный прикаминный пол -->
+  <path d="M148 508h504l28 26H120z" fill="url(#stone)"/>
+  <path d="M148 508h504" stroke="#d8c19a" stroke-opacity=".2"/>
+  <path d="M124 532h552" stroke="#000" stroke-opacity=".55"/>
+  <g stroke="#e3d0ac" stroke-opacity=".05">
+    <path d="M210 510v22M310 510v22M410 510v22M510 510v22M610 510v22"/>
+  </g>
+
+  <!-- поленница справа -->
+  <g>
+    <path d="M660 512V444h76v68z" fill="#221610" stroke="#402717" stroke-width="2"/>
+    <g fill="#302018" stroke="#5a3a24" stroke-width="1.5">
+      <circle cx="676" cy="500" r="12"/>
+      <circle cx="700" cy="500" r="12"/>
+      <circle cx="724" cy="500" r="12"/>
+      <circle cx="688" cy="478" r="12"/>
+      <circle cx="712" cy="478" r="12"/>
+      <circle cx="700" cy="456" r="12"/>
+    </g>
+    <g fill="none" stroke="#8a6542" stroke-opacity=".3">
+      <circle cx="688" cy="478" r="7"/>
+      <circle cx="712" cy="478" r="7"/>
+      <circle cx="700" cy="456" r="7"/>
+      <circle cx="676" cy="500" r="7"/>
+      <circle cx="700" cy="500" r="7"/>
+      <circle cx="724" cy="500" r="7"/>
+    </g>
+  </g>
+
+  <!-- кочерга -->
+  <g stroke="url(#steel)" stroke-width="3" stroke-linecap="round">
+    <path d="M102 510 128 448M128 448c2-9 10-12 18-8"/>
+    <path d="M120 500c8-5 14-3 18 4"/>
+  </g>
+
+  <!-- отражение огня на полу -->
+  <ellipse cx="400" cy="532" rx="150" ry="12" fill="#ff9a3d" opacity=".16" filter="url(#soft)"/>
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>

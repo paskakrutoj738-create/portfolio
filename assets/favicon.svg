@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Кузнецов — мастерская">
+  <rect width="64" height="64" rx="14" fill="#0b0c0d"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#c9a86a" stroke-opacity=".4"/>
+  <path d="M20 15v34M20 32 38 15M20 32l18 17M43 15h4M43 49h4" fill="none" stroke="#c9a86a" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

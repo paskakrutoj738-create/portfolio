@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Стеллаж-библиотека с металлическим каркасом и полками из ореха">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#252b2e"/>
+      <stop offset=".56" stop-color="#161a1c"/>
+      <stop offset="1" stop-color="#0a0c0d"/>
+    </linearGradient>
+    <radialGradient id="warm" cx=".18" cy=".2" r=".85">
+      <stop offset="0" stop-color="#e8c182" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#dcae68" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#dcae68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".45" r=".78">
+      <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".64"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9d6c3e"/>
+      <stop offset=".3" stop-color="#7a502c"/>
+      <stop offset=".72" stop-color="#5b3a20"/>
+      <stop offset="1" stop-color="#402817"/>
+    </linearGradient>
+    <linearGradient id="woodFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c18f58"/>
+      <stop offset=".3" stop-color="#966337"/>
+      <stop offset=".7" stop-color="#734a28"/>
+      <stop offset="1" stop-color="#54351c"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#242728"/>
+      <stop offset=".3" stop-color="#8b908d"/>
+      <stop offset=".55" stop-color="#4a4e4d"/>
+      <stop offset=".8" stop-color="#a7aba6"/>
+      <stop offset="1" stop-color="#212425"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a532c"/>
+      <stop offset=".3" stop-color="#d5b477"/>
+      <stop offset=".55" stop-color="#a07f47"/>
+      <stop offset=".8" stop-color="#ecd6a4"/>
+      <stop offset="1" stop-color="#594627"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5dcaa" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#e0bd82" stop-opacity=".05"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#warm)"/>
+
+  <g stroke="#d9c39a" stroke-opacity=".05" stroke-width="1">
+    <path d="M0 100h800M0 220h800M0 340h800M0 460h800"/>
+    <path d="M100 0v540M220 0v540M340 0v540M460 0v540M580 0v540M700 0v540"/>
+  </g>
+
+  <!-- окно слева -->
+  <g>
+    <rect x="28" y="100" width="108" height="250" fill="url(#glass)" stroke="#181b1c" stroke-width="7"/>
+    <rect x="28" y="100" width="108" height="250" fill="none" stroke="#b99a64" stroke-opacity=".32"/>
+    <path d="M82 104v242M32 224h100" stroke="#131617" stroke-width="4"/>
+    <ellipse cx="90" cy="230" rx="150" ry="160" fill="#f4d9a4" opacity=".06" filter="url(#blur)"/>
+  </g>
+
+  <g fill="none" stroke="#e3d0ac" stroke-opacity=".05">
+    <rect x="170" y="52" width="600" height="440"/>
+    <path d="M170 160h600M170 268h600M170 376h600M370 52v440M570 52v440"/>
+  </g>
+
+  <!-- пол -->
+  <path d="M0 522h800v78H0z" fill="#080a0a"/>
+  <path d="M0 522h800" stroke="#c2a36b" stroke-opacity=".22"/>
+  <path d="M0 528h800" stroke="#000" stroke-opacity=".5"/>
+  <ellipse cx="420" cy="532" rx="330" ry="26" fill="#000" opacity=".55" filter="url(#blur)"/>
+
+  <!-- задняя тень -->
+  <rect x="128" y="86" width="560" height="434" fill="#050606" opacity=".55"/>
+
+  <!-- металлический каркас -->
+  <g fill="url(#steel)">
+    <rect x="130" y="80" width="14" height="442" rx="2"/>
+    <rect x="666" y="80" width="14" height="442" rx="2"/>
+    <rect x="398" y="80" width="9" height="442" rx="2"/>
+    <rect x="130" y="80" width="550" height="10" rx="2"/>
+    <rect x="130" y="512" width="550" height="10" rx="2"/>
+  </g>
+  <g fill="url(#brass)">
+    <rect x="126" y="76" width="22" height="6" rx="2"/>
+    <rect x="662" y="76" width="22" height="6" rx="2"/>
+    <rect x="126" y="512" width="22" height="7" rx="2"/>
+    <rect x="662" y="512" width="22" height="7" rx="2"/>
+  </g>
+
+  <!-- полки -->
+  <g>
+    <g>
+      <rect x="142" y="142" width="526" height="15" rx="2" fill="url(#wood)"/>
+      <rect x="142" y="142" width="526" height="5" rx="2" fill="url(#woodFace)"/>
+      <path d="M146 146h518" stroke="#d8a66d" stroke-opacity=".3"/>
+    </g>
+    <g>
+      <rect x="142" y="232" width="526" height="15" rx="2" fill="url(#wood)"/>
+      <rect x="142" y="232" width="526" height="5" rx="2" fill="url(#woodFace)"/>
+      <path d="M146 236h518" stroke="#d8a66d" stroke-opacity=".3"/>
+    </g>
+    <g>
+      <rect x="142" y="322" width="526" height="15" rx="2" fill="url(#wood)"/>
+      <rect x="142" y="322" width="526" height="5" rx="2" fill="url(#woodFace)"/>
+      <path d="M146 326h518" stroke="#d8a66d" stroke-opacity=".3"/>
+    </g>
+    <g>
+      <rect x="142" y="412" width="526" height="15" rx="2" fill="url(#wood)"/>
+      <rect x="142" y="412" width="526" height="5" rx="2" fill="url(#woodFace)"/>
+      <path d="M146 416h518" stroke="#d8a66d" stroke-opacity=".3"/>
+    </g>
+    <g>
+      <rect x="142" y="497" width="526" height="15" rx="2" fill="url(#wood)"/>
+      <rect x="142" y="497" width="526" height="5" rx="2" fill="url(#woodFace)"/>
+    </g>
+  </g>
+
+  <!-- верхняя полка: книги, ваза, растение -->
+  <g>
+    <rect x="176" y="86" width="12" height="54" fill="#6d4930"/>
+    <rect x="190" y="80" width="9" height="60" fill="#a28c6d"/>
+    <rect x="201" y="90" width="14" height="50" fill="#42504a"/>
+    <rect x="217" y="84" width="8" height="56" fill="#8b6a45"/>
+    <rect x="227" y="94" width="12" height="46" fill="#5c4a3a"/>
+    <path d="M304 140v-34c0-14 10-22 22-22s22 8 22 22v34z" fill="#4c514f"/>
+    <path d="M312 118c0-12 6-18 14-18s14 6 14 18" fill="none" stroke="#b5b8b1" stroke-opacity=".2"/>
+    <path d="M326 84V58M326 66c-13-4-19-13-19-25 12 2 19 12 19 25ZM326 72c12-5 17-14 16-26-11 4-17 14-16 26Z" fill="none" stroke="#6b714f" stroke-width="2"/>
+    <path d="M320 54c8-4 14-4 20 0" stroke="#6b714f" stroke-width="1.5" fill="none"/>
+    <rect x="502" y="110" width="64" height="31" rx="2" fill="#7b5a3a"/>
+    <rect x="508" y="102" width="52" height="9" rx="2" fill="#9a7b56"/>
+    <path d="M582 140v-28M582 124c-12-2-18-10-19-21 11 2 18 10 19 21ZM582 130c12-4 18-12 17-23-10 3-17 12-17 23Z" fill="none" stroke="#6d7550" stroke-width="2"/>
+    <rect x="572" y="136" width="22" height="6" rx="2" fill="#b08a58"/>
+  </g>
+
+  <!-- вторая полка -->
+  <g>
+    <rect x="174" y="176" width="10" height="56" fill="#8a7355"/>
+    <rect x="186" y="170" width="14" height="62" fill="#4c4034"/>
+    <rect x="202" y="180" width="9" height="52" fill="#9a7f54"/>
+    <rect x="213" y="174" width="13" height="58" fill="#67503b"/>
+    <rect x="228" y="184" width="8" height="48" fill="#3f4a45"/>
+    <rect x="238" y="178" width="11" height="54" fill="#8c6b47"/>
+    <path d="M296 232v-44c0-9 8-15 18-15s18 6 18 15v44z" fill="#b3a58c"/>
+    <path d="M302 212c0-14 5-22 12-22s12 8 12 22" fill="none" stroke="#6b5c47" stroke-opacity=".35"/>
+    <path d="M292 232h44" stroke="#171a1b" stroke-opacity=".4"/>
+    <rect x="388" y="190" width="54" height="42" rx="2" fill="#594331"/>
+    <path d="M394 198h42M394 207h42M394 216h42" stroke="#b08a58" stroke-opacity=".25"/>
+    <circle cx="474" cy="218" r="14" fill="#4e5250"/>
+    <path d="M460 218h28" stroke="#a8aca6" stroke-opacity=".3"/>
+    <rect x="520" y="196" width="11" height="36" fill="#7d6749"/>
+    <rect x="533" y="190" width="9" height="42" fill="#4d5a52"/>
+    <rect x="544" y="200" width="14" height="32" fill="#9a7a4d"/>
+    <rect x="560" y="194" width="8" height="38" fill="#5b4735"/>
+    <rect x="586" y="188" width="54" height="44" rx="3" fill="#6c5135"/>
+    <circle cx="613" cy="210" r="4" fill="#c9a86a"/>
+  </g>
+
+  <!-- третья полка: рама, книги, короб -->
+  <g>
+    <rect x="170" y="266" width="84" height="56" fill="#2f3332" stroke="#8d7755" stroke-width="3"/>
+    <rect x="178" y="274" width="68" height="40" fill="#656c62"/>
+    <path d="M186 302c10-18 26-24 48-20v16h-48z" fill="#7d8068" opacity=".7"/>
+    <rect x="270" y="278" width="11" height="44" fill="#5d4935"/>
+    <rect x="283" y="272" width="14" height="50" fill="#8d6b43"/>
+    <rect x="299" y="280" width="8" height="42" fill="#43504a"/>
+    <rect x="309" y="276" width="12" height="46" fill="#a18c6d"/>
+    <path d="M344 322v-40h44v40z" fill="#4e3b2a"/>
+    <path d="M352 282v40M380 282v40" stroke="#2d241b" stroke-opacity=".6"/>
+    <rect x="430" y="284" width="68" height="38" rx="2" fill="#7e6142"/>
+    <rect x="438" y="276" width="52" height="9" rx="2" fill="#a48560"/>
+    <path d="M552 322v-42c0-8 7-14 16-14s16 6 16 14v42z" fill="#3d4342"/>
+    <path d="M558 294c0-12 4-18 10-18s10 6 10 18" fill="none" stroke="#9da19b" stroke-opacity=".25"/>
+    <rect x="608" y="280" width="34" height="42" rx="2" fill="#5c4631"/>
+    <path d="M614 288h22M614 298h22M614 308h22" stroke="#b08a58" stroke-opacity=".22"/>
+  </g>
+
+  <!-- четвёртая полка: большие книги, скульптура, корзина -->
+  <g>
+    <rect x="172" y="356" width="13" height="56" fill="#8a6d49"/>
+    <rect x="187" y="350" width="10" height="62" fill="#4e5c55"/>
+    <rect x="199" y="360" width="16" height="52" fill="#6b4d35"/>
+    <rect x="217" y="354" width="11" height="58" fill="#9b825d"/>
+    <rect x="230" y="362" width="8" height="50" fill="#3f4a44"/>
+    <rect x="240" y="358" width="14" height="54" fill="#7e5c3c"/>
+    <path d="M300 412v-34c8-8 18-12 28-8 12 4 18 16 16 42z" fill="#59605b"/>
+    <path d="M308 400c13-14 24-16 32-10" fill="none" stroke="#9ca09a" stroke-opacity=".3"/>
+    <rect x="364" y="374" width="50" height="38" rx="2" fill="#60452f"/>
+    <path d="M372 382h34M372 392h34M372 402h34" stroke="#b08a58" stroke-opacity=".2"/>
+    <path d="M466 412v-38l-10-8h76l-10 8v38z" fill="#8b724d"/>
+    <path d="M470 368h52M474 412v-38M514 412v-38M480 392h32" stroke="#5c4a32" stroke-opacity=".55"/>
+    <rect x="552" y="366" width="76" height="46" rx="2" fill="#4d3b2b"/>
+    <path d="M560 376h60M560 388h60M560 400h60" stroke="#9d7a51" stroke-opacity=".25"/>
+  </g>
+
+  <!-- нижняя полка: корзины -->
+  <g>
+    <path d="M178 451h90v34c0 7-6 12-13 12h-64c-7 0-13-5-13-12z" fill="#78603f"/>
+    <path d="M184 462h78M182 474h82" stroke="#3f3223" stroke-opacity=".55" stroke-width="3"/>
+    <path d="M242 451c0-10 8-18 18-18" fill="none" stroke="#3f3223" stroke-width="2"/>
+    <rect x="318" y="455" width="60" height="42" rx="2" fill="#5b4632"/>
+    <rect x="326" y="463" width="44" height="26" fill="#413225"/>
+    <rect x="330" y="469" width="36" height="2" fill="#a6855b" opacity=".4"/>
+    <path d="M474 497v-37h74v37z" fill="#8a6d47"/>
+    <path d="M482 467h58M482 479h58M482 491h58" stroke="#4b3927" stroke-opacity=".5"/>
+    <path d="M576 497v-33h56v33z" fill="#3e3328"/>
+    <path d="M584 473h40M584 485h40" stroke="#8a704f" stroke-opacity=".35"/>
+  </g>
+
+  <!-- блики -->
+  <path d="M137 88h3v428h-3z" fill="#fff" opacity=".18"/>
+  <path d="M672 88h3v428h-3z" fill="#fff" opacity=".12"/>
+  <path d="M404 88h1.5v428H404z" fill="#fff" opacity=".13"/>
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>

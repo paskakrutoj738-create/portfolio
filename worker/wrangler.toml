@@ -1,0 +1,9 @@
+name = "kuznetsov-form"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+# Секреты задаются командами:
+#   npx wrangler secret put BOT_TOKEN
+#   npx wrangler secret put CHAT_ID
+#   npx wrangler secret put ALLOWED_ORIGIN
+# Значение ALLOWED_ORIGIN можно не задавать — тогда разрешены все источники.

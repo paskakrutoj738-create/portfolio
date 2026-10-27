@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Садовая скамья из термоясеня на чугунных ножках на террасе">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e2c"/>
+      <stop offset=".55" stop-color="#1a1d1b"/>
+      <stop offset="1" stop-color="#0b0c0b"/>
+    </linearGradient>
+    <radialGradient id="warm" cx=".18" cy=".14" r=".9">
+      <stop offset="0" stop-color="#eac584" stop-opacity=".34"/>
+      <stop offset=".55" stop-color="#dcae68" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#dcae68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".45" r=".76">
+      <stop offset=".42" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".62"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c08a52"/>
+      <stop offset=".28" stop-color="#a06c3d"/>
+      <stop offset=".65" stop-color="#7d512b"/>
+      <stop offset="1" stop-color="#5b391d"/>
+    </linearGradient>
+    <linearGradient id="woodFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dda56b"/>
+      <stop offset=".35" stop-color="#b37d47"/>
+      <stop offset="1" stop-color="#754a26"/>
+    </linearGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b1e1e"/>
+      <stop offset=".32" stop-color="#565a57"/>
+      <stop offset=".56" stop-color="#282b2b"/>
+      <stop offset=".8" stop-color="#666a66"/>
+      <stop offset="1" stop-color="#161919"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5f4b2b"/>
+      <stop offset=".3" stop-color="#d4b273"/>
+      <stop offset=".56" stop-color="#98783f"/>
+      <stop offset=".8" stop-color="#e9d09c"/>
+      <stop offset="1" stop-color="#524123"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3a34"/>
+      <stop offset=".35" stop-color="#26251f"/>
+      <stop offset="1" stop-color="#121210"/>
+    </linearGradient>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a8162"/>
+      <stop offset=".5" stop-color="#6e674d"/>
+      <stop offset="1" stop-color="#514b38"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#warm)"/>
+
+  <g stroke="#d9c39a" stroke-opacity=".045" stroke-width="1">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800"/>
+    <path d="M100 0v490M200 0v490M300 0v490M400 0v490M500 0v490M600 0v490M700 0v490"/>
+  </g>
+
+  <!-- панель на стене -->
+  <g fill="none" stroke="#e3d0ac" stroke-opacity=".05">
+    <rect x="34" y="70" width="732" height="420"/>
+    <path d="M34 210h732M34 350h732M250 70v420M550 70v420"/>
+  </g>
+
+  <!-- световое пятно -->
+  <ellipse cx="180" cy="260" rx="270" ry="240" fill="#e8c182" opacity=".06"/>
+
+  <!-- тени листьев на стене -->
+  <g fill="#0a0c0b" opacity=".32" filter="url(#soft)">
+    <path d="M640 80c-40 40-60 100-42 160 18 58 72 92 130 90-46 20-112 8-146-38-34-46-30-128 8-176z"/>
+    <path d="M604 190c-18-24-42-34-66-28 18 18 40 28 66 28zM620 224c-10-26 0-50 22-66 4 26-4 50-22 66zM650 158c-2-28 12-50 38-58-2 28-16 48-38 58zM674 250c18-18 42-20 62-8-18 16-42 20-62 8z"/>
+  </g>
+
+  <!-- пол -->
+  <path d="M0 478h800v122H0z" fill="url(#stone)"/>
+  <path d="M0 478h800" stroke="#c2a36b" stroke-opacity=".2"/>
+  <path d="M0 484h800" stroke="#000" stroke-opacity=".4"/>
+  <g stroke="#e3d0ac" stroke-opacity=".035">
+    <path d="M0 512h800M0 548h800M0 584h800"/>
+    <path d="M140 478v122M310 478v122M480 478v122M650 478v122"/>
+  </g>
+
+  <!-- растение слева -->
+  <g>
+    <ellipse cx="96" cy="532" rx="66" ry="12" fill="#000" opacity=".55" filter="url(#blur)"/>
+    <path d="M68 478h56l-8 52H76z" fill="#7a4d33"/>
+    <path d="M74 486h44" stroke="#a97a55" stroke-opacity=".35"/>
+    <path d="M96 474c-2-40 4-72 18-98M96 452c-20-10-30-28-32-52M98 428c18-12 26-28 26-48" fill="none" stroke="#65694a" stroke-width="2.5" stroke-linecap="round"/>
+    <g fill="#5f6647">
+      <ellipse cx="115" cy="373" rx="7" ry="17" transform="rotate(36 115 373)"/>
+      <ellipse cx="63" cy="397" rx="7" ry="16" transform="rotate(-48 63 397)"/>
+      <ellipse cx="124" cy="380" rx="5" ry="12" transform="rotate(60 124 380)"/>
+      <ellipse cx="70" cy="428" rx="5" ry="12" transform="rotate(-34 70 428)"/>
+      <ellipse cx="121" cy="418" rx="5" ry="12" transform="rotate(48 121 418)"/>
+    </g>
+  </g>
+
+  <!-- тень скамьи -->
+  <ellipse cx="400" cy="528" rx="260" ry="22" fill="#000" opacity=".6" filter="url(#blur)"/>
+
+  <!-- скамья: задние ножки -->
+  <g fill="url(#iron)">
+    <rect x="212" y="430" width="14" height="86" rx="3"/>
+    <rect x="574" y="430" width="14" height="86" rx="3"/>
+  </g>
+
+  <!-- спинка -->
+  <g>
+    <rect x="210" y="248" width="14" height="200" rx="4" fill="url(#iron)"/>
+    <rect x="576" y="248" width="14" height="200" rx="4" fill="url(#iron)"/>
+    <g fill="url(#wood)">
+      <rect x="224" y="272" width="352" height="20" rx="5"/>
+      <rect x="224" y="316" width="352" height="20" rx="5"/>
+      <rect x="224" y="360" width="352" height="20" rx="5"/>
+    </g>
+    <g fill="url(#woodFace)" opacity=".55">
+      <rect x="230" y="274" width="340" height="5" rx="2"/>
+      <rect x="230" y="318" width="340" height="5" rx="2"/>
+      <rect x="230" y="362" width="340" height="5" rx="2"/>
+    </g>
+    <g stroke="#4f3018" stroke-opacity=".28" stroke-width="1">
+      <path d="M250 280h300M270 288h270M244 324h310M286 332h250M260 368h290M310 376h210"/>
+    </g>
+    <g fill="url(#brass)">
+      <circle cx="217" cy="282" r="3.4"/>
+      <circle cx="583" cy="282" r="3.4"/>
+      <circle cx="217" cy="370" r="3.4"/>
+      <circle cx="583" cy="370" r="3.4"/>
+    </g>
+  </g>
+
+  <!-- сиденье -->
+  <g>
+    <rect x="186" y="402" width="428" height="19" rx="5" fill="url(#wood)"/>
+    <rect x="186" y="424" width="438" height="19" rx="5" fill="url(#wood)"/>
+    <rect x="186" y="446" width="444" height="19" rx="5" fill="url(#woodFace)"/>
+    <path d="M192 406h416M192 428h426M192 450h432" stroke="#e0aa70" stroke-opacity=".3" stroke-width="2"/>
+    <g stroke="#4f3018" stroke-opacity=".25" stroke-width="1">
+      <path d="M216 412h370M260 436h320M230 458h370"/>
+    </g>
+  </g>
+
+  <!-- подлокотники и передние ножки -->
+  <g fill="none" stroke="url(#iron)" stroke-width="13" stroke-linecap="round">
+    <path d="M214 264c-38 4-58 32-58 72v80"/>
+    <path d="M586 264c38 4 58 32 58 72v80"/>
+  </g>
+  <g fill="none" stroke="#9da19b" stroke-width="2" opacity=".14" stroke-linecap="round">
+    <path d="M214 260c-40 5-62 34-62 76v80"/>
+    <path d="M586 260c40 5 62 34 62 76v80"/>
+  </g>
+  <g fill="none" stroke="url(#iron)" stroke-width="6" stroke-linecap="round">
+    <path d="M156 386c18-16 30-10 30 6s-14 18-24 8"/>
+    <path d="M644 386c-18-16-30-10-30 6s14 18 24 8"/>
+  </g>
+  <g fill="url(#iron)">
+    <rect x="150" y="434" width="16" height="88" rx="3"/>
+    <rect x="634" y="434" width="16" height="88" rx="3"/>
+    <rect x="142" y="512" width="34" height="8" rx="3"/>
+    <rect x="624" y="512" width="34" height="8" rx="3"/>
+  </g>
+  <g fill="none" stroke="url(#iron)" stroke-width="4.5" stroke-linecap="round">
+    <path d="M164 502c20-18 42-18 62 0"/>
+    <path d="M636 502c-20-18-42-18-62 0"/>
+  </g>
+
+  <!-- подушка -->
+  <g transform="rotate(-4 525 394)">
+    <rect x="472" y="338" width="104" height="76" rx="12" fill="url(#fabric)"/>
+    <path d="M480 350h88M480 400h88" stroke="#a39a78" stroke-opacity=".22"/>
+    <path d="M488 352c0 18 8 30 22 34M560 352c0 18-8 30-22 34" fill="none" stroke="#4d4836" stroke-opacity=".35"/>
+    <path d="M480 344c30 8 60 8 88 0" fill="none" stroke="#b0a785" stroke-opacity=".2"/>
+  </g>
+
+  <!-- блики -->
+  <path d="M220 252h2v194h-2z" fill="#fff" opacity=".15"/>
+  <path d="M588 252h2v194h-2z" fill="#fff" opacity=".1"/>
+  <path d="M158 440h2v80h-2z" fill="#fff" opacity=".13"/>
+  <path d="M640 440h2v80h-2z" fill="#fff" opacity=".1"/>
+
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>
